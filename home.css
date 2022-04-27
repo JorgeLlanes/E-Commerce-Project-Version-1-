@@ -1,0 +1,26 @@
+/* Header */
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: rgb(92, 91, 91);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+;
+
+
+
+
+/* HOME */
+
+#hero {
+    background-image: url("img/hero.jpg");
+    height: 90vh;
+    width: 100;
+
+}
+
+;
