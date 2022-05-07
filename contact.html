@@ -71,9 +71,9 @@
 
 
             <div class="icon">
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram" onclick='location.href = "https:instagram.com/roadtohire/?hl=en"'></i>
+                <i class="fab fa-facebook-f" onclick='location.href = "https:facebook.com"'></i>
+                <i class="fab fa-twitter" onclick='location.href = "https:twitter.com/roadtohire"'></i>
             </div>
 
         </div>
@@ -83,8 +83,9 @@
             <label>Email: </label>
             <input type="text" name="username" placeholder="Road2Hire@email.com">
             <br>
-            <input class="submit" type="submit" value="Submit">
-            <p>* Newsletter *</p>
+            <button class="submit" onclick="getNoti()" type="button" value="Submit">Submit</button>
+            <!-- <p>* Newsletter *</p> -->
+            <p id="noti"></p>
         </form>
 
 
@@ -98,7 +99,7 @@
 
 
 
-    <script src="contact.js"></script>
+    <script src="script.js"></script>
 
 
 
